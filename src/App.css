@@ -1,0 +1,62 @@
+/* Styling for maps.js */
+
+body {background-color: #343f4c;}
+
+#map {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  top: 5px;
+}
+
+#graph-title {
+  top: 30px;
+}
+
+#about {
+  top: 70px;
+}
+
+.navigation {
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: lightseagreen;
+}
+
+a:hover {
+  background-color: lightgray;
+}
+
+.item {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 4px;
+  color: white;
+  position: relative;
+  margin: 5px;
+}
+
+.navi {
+  float: left;
+  height: 30px;
+}
+
+.title {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+/* Styling for info.js */
+
+.tile {
+  border-style: solid;
+  border-radius: 10px;
+  width: 40px;
+  background-color: thistle;
+}
+
