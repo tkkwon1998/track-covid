@@ -15,7 +15,7 @@ function App() {
             <Link to="/epidemic-watch" className="item">Cases by State</Link>
             <Link to="/info1" className="item">About</Link>
           </div>
-        </div>
+      </div>
   
         <div className="main-page">
           <Route exact path="/epidemic-watch" component={Maps} />
