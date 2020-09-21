@@ -18,7 +18,7 @@ function App() {
       </div>
   
         <div className="main-page">
-          <Route exact path="/epidemic-watch" component={Maps} />
+          <Route exact path="/track-covid" component={Maps} />
           <Route path="/info1" component={Info} />
         </div>
       </div>
